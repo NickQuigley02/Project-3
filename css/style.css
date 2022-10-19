@@ -40,6 +40,11 @@ ol, ul{
 	color: FAF9F9;
 	border-radius: 25px;
 }
+#projects{
+	background: #6D8097;
+	color: 1B1924;
+	border-radius: 25px;
+}
 .dualContainer {
     display: grid;
     grid-template-columns: 45% 45%; 
@@ -48,4 +53,17 @@ ol, ul{
 
 .dualItem {
 	text-align: center;
+}
+
+.videocontainer {
+  position:relative;
+  padding-bottom:30%;
+  overflow:hidden;
+}
+.video-container iframe, .yt-container object, .yt-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
 }
