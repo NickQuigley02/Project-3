@@ -33,6 +33,14 @@ ol, ul{
 	color: #FAF9F9;
 	border-radius: 25px;
 }
+#achievements {
+	font-family: "Verdana", sans-serif;
+	font-size: +5;
+	text-align: left;
+	background: #171930;
+	color: #FAF9F9;
+	border-radius: 25px;
+}
 #skills {
 	font-family: "Raleway", sans-serif;
 	font-size: +2;
