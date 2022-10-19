@@ -15,22 +15,6 @@ header::after {
 		clear: both;
 }
 
-a {
-  padding: 1em 1.5em;
-}
-
-a:hover {
-  background-color: #708183;
-}
-
-a:active {
-  background-color: black;
-}
-
-a:visited {
-  background-color: #252F30;
-  color: #E8EEEC;
-}
 
 ol, ul{
   list-style: none;
