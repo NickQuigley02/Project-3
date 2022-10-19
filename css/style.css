@@ -71,19 +71,19 @@ ol, ul{
 	text-align: center;
 }
 
-.videocontainer {
+.videoContainer {
   position:relative;
   padding-bottom:30%;
   overflow:hidden;
 }
-.video-container iframe, .yt-container object, .yt-container embed {
+.videoContainer iframe, .yt-container object, .yt-container embed {
   position:absolute;
   top:0;
   left:0;
   width:100%;
   height:100%;
 }
-img{
+.imgContainer{
 	height: 250 px;
 	width: 250 px;
 }
