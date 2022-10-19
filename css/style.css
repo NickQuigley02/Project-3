@@ -164,8 +164,8 @@ body ul li {
 }
 img{
 	height:90%;
-	width:90%;
 	object-fit: contain;
+	border: 5px solid #171930;
 }
 .imgContainer{
 	height: 600px;
