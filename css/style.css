@@ -43,7 +43,7 @@ ol, ul{
 	border-radius: 25px;
 }
 #skills {
-	ol li {
+	ul li {
 		list-style-type: square;
 		padding: 5px;
 		margin-left: 35px;
