@@ -12,33 +12,33 @@ body ul li {
 	padding: 15px;
 }
 
-header {
+#header {
 	background: #171930;
 	color: #faf9f9;
 	text-align: center;
 }
-header::after {
+#header::after {
 	content: '';
 	display: table;
 	clear: both;
 }
-header nav ul{
+#header nav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-header nav a{
+#header nav a{
 	display: block;
 	padding: 8px;
 	background-color: #6D8097;
 }
-header nav ul li:nth-child(1){
+#header nav ul li:nth-child(1){
 	float: left;
 }
-header nav ul li:nth-child(2){
+#header nav ul li:nth-child(2){
 	float: initial;
 }
-header nav ul li:nth-child(3){
+#header nav ul li:nth-child(3){
 	float: right;
 }
 
