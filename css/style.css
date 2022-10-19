@@ -133,6 +133,7 @@ header nav ul li:nth-child(3){
 img{
 	height:100%;
 	width:100%;
+	object-fit: contain;
 }
 .imgContainer{
 	height: 100px;
