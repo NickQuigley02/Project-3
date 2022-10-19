@@ -54,11 +54,11 @@ ol, ul{
 	border-radius: 25px;
 }
 .dualContainer {
-  display: flex;
+    display: grid;
+    grid-template-columns: 45% 45%; 
+    grid-column-gap: 5%;
 }
 
 .dualItem {
-  flex-basis: 45%;
-  margin: 5%;
-  text-align: center;
+	text-align: center;
 }
