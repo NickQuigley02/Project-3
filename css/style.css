@@ -2,3 +2,34 @@ body {
 	background-color: #263e23;
 	color: #faf9f9;
 }
+
+header {
+	background: #171930;
+	color: #FAF9F9;
+}
+
+header::after {
+		content: '';
+		display: table;
+		clear: both;
+}
+
+a {
+  background-color: #6D8097;
+  color: #1B1924;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-color: #708183;
+}
+
+a:active {
+  background-color: black;
+}
+
+a:visited {
+  background-color: #252F30;
+}
