@@ -3,7 +3,7 @@ ol, ul{
 }
 
 strong{
-	font-style: bold;
+	font-weight: 700;
 }
 em{
 	font-style: italic;
