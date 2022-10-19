@@ -1,22 +1,35 @@
+ol, ul{
+  list-style: none;
+}
+
 body {
 	background-color: #263e23;
 	color: #faf9f9;
     text-align: center;
+}
+body ul li {
+		list-style-type: square;
+		padding: 5px;
+		margin-left: 35px;
 }
 
 header {
 	background: #171930;
 	color: #faf9f9;
 }
-
 header::after {
 		content: '';
 		display: table;
 		clear: both;
 }
-
-ol, ul{
-  list-style: none;
+header nav ul li:nth-child(1){
+  float: left;
+}
+header nav ul li:nth-child(2){
+  float: right;
+}
+header nav ul li:nth-child(3){
+  float: right;
 }
 
 #intro {
@@ -43,11 +56,6 @@ ol, ul{
 	border-radius: 25px;
 }
 #skills {
-	ul li {
-		list-style-type: square;
-		padding: 5px;
-		margin-left: 35px;
-	};
 	font-family: "Raleway", sans-serif;
 	font-size: 2;
 	text-align: left;
@@ -89,6 +97,6 @@ ol, ul{
   width:80%;
 }
 .imgContainer{
-	height: 250 px;
-	width: 250 px;
+	height: 150 px;
+	width: 150 px;
 }
