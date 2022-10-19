@@ -39,7 +39,7 @@ header nav ul li:nth-child(3){
 	background: #6D8097;
 	color: #1B1924;
 	border-radius: 25px;
-	border: 15px;
+	height: 90%;
 }
 #education {
 	padding: 10px;
@@ -48,7 +48,7 @@ header nav ul li:nth-child(3){
 	background: #171930;
 	color: #FAF9F9;
 	border-radius: 25px;
-	border: 15px;
+	height: 90%;
 }
 #achievements {
 	padding: 10px;
@@ -58,7 +58,7 @@ header nav ul li:nth-child(3){
 	background: #171930;
 	color: #FAF9F9;
 	border-radius: 25px;
-	border: 15px;
+	height: 90%;
 }
 #skills {
 	padding: 10px;
@@ -68,7 +68,7 @@ header nav ul li:nth-child(3){
 	background: #6D8097;
 	color: #1B1924;
 	border-radius: 25px;
-	border: 15px;
+	height: 90%;
 }
 #experience{
 	padding: 10px;
@@ -76,7 +76,7 @@ header nav ul li:nth-child(3){
 	background: #715D5E;
 	color: FAF9F9;
 	border-radius: 25px;
-	border: 15px;
+	height: 90%;
 }
 #projects{
 	padding: 10px;
@@ -84,7 +84,7 @@ header nav ul li:nth-child(3){
 	background: #6D8097;
 	color: #1B1924;
 	border-radius: 25px;
-	border: 15px;
+	height: 90%;
 }
 .dualContainer {
     display: grid;
@@ -105,7 +105,7 @@ header nav ul li:nth-child(3){
   position:absolute;
   top:0;
   left:0;
-  width:80%;
+  width:60%;
 }
 .imgContainer{
 	height: 150 px;
