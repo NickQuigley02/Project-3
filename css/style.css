@@ -16,8 +16,6 @@ header::after {
 }
 
 a {
-  background-color: #6D8097;
-  color: #1B1924;
   padding: 1em 1.5em;
 }
 
@@ -53,10 +51,15 @@ ol, ul{
 	color: #1B1924;
 	border-radius: 25px;
 }
+#experience{
+	background: #715D5E;
+	color: FAF9F9;
+	border-radius: 25px;
+}
 .dualContainer {
     display: grid;
     grid-template-columns: 45% 45%; 
-    grid-column-gap: 5%;
+    grid-column-gap: 10%;
 }
 
 .dualItem {
