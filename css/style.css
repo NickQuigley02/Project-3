@@ -130,7 +130,11 @@ header nav ul li:nth-child(3){
   left:0;
   width:60%;
 }
+img{
+	height:100%;
+	width:100%;
+}
 .imgContainer{
-	height: 400px;
-	width: 400px;
+	height: 100px;
+	width: 100px;
 }
