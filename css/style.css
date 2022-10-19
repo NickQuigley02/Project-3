@@ -43,3 +43,22 @@ ol, ul{
 	color: #1B1924;
 	border-radius: 25px;
 }
+#education {
+	background: #171930;
+	color: #FAF9F9;
+	border-radius: 25px;
+}
+#skills {
+	background: #6D8097;
+	color: #1B1924;
+	border-radius: 25px;
+}
+.dualContainer {
+  display: flex;
+}
+
+.dualItem {
+  flex-basis: 45%;
+  margin: 5%;
+  text-align: center;
+}
