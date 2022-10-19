@@ -2,44 +2,63 @@ ol, ul{
   list-style: none;
 }
 
+strong{
+	font-weight: bold;
+}
+em{
+	font-style: italic;
+}
+header {
+	background: #171930;
+	color: #faf9f9;
+	text-align: center;
+}
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+header nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+header nav ul li{
+	list-style-type: none;
+}
+header nav a{
+	display: block;
+	padding: 8px;
+	background-color: #6D8097;
+	color: #faf9f9;
+}
+header nav a:hover{
+	background-color: #faf9f9;
+	color: #171930;
+}
+header nav ul li:nth-child(1){
+	width: 33%;
+	float: left;
+}
+header nav ul li:nth-child(2){
+	width: 33%;
+	float: right;
+}
+header nav ul li:nth-child(3){
+	width: 34%;
+	float: right;
+}
+
 body {
 	background-color: #263e23;
 	color: #faf9f9;
     text-align: center;
 }
+body ul{
+	padding: 15%;
+}
 body ul li {
 	list-style-type: square;
-	padding: 15px;
-}
-
-#header {
-	background: #171930;
-	color: #faf9f9;
-	text-align: center;
-}
-#header::after {
-	content: '';
-	display: table;
-	clear: both;
-}
-#header nav ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-#header nav a{
-	display: block;
-	padding: 8px;
-	background-color: #6D8097;
-}
-#header nav ul li:nth-child(1){
-	float: left;
-}
-#header nav ul li:nth-child(2){
-	float: initial;
-}
-#header nav ul li:nth-child(3){
-	float: right;
 }
 
 #intro {
@@ -102,12 +121,13 @@ body ul li {
 #experience{
 	margin: 10px;
 	padding: 10px;
-	width: 100%;
+	height: 10em;
 	font-family: "Raleway", sans-serif;
 	background: #715D5E;
 	color: #FAF9F9;
 	border-radius: 25px;
-	height: 90%;
+	height: 40em;
+	font-size: 30px;
 }
 #projects{
 	margin: 10px;
@@ -141,12 +161,12 @@ body ul li {
   width:60%;
 }
 img{
-	height:100%;
-	width:100%;
+	height:90%;
+	width:90%;
 	object-fit: contain;
 }
 .imgContainer{
-	height: 1400px;
+	height: 600px;
 	width: 100%;
 	margin: 20px;
 }
