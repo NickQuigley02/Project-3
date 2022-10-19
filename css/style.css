@@ -39,6 +39,7 @@ header nav ul li:nth-child(3){
 	background: #6D8097;
 	color: #1B1924;
 	border-radius: 25px;
+	border: 15px;
 }
 #education {
 	padding: 10px;
@@ -47,6 +48,7 @@ header nav ul li:nth-child(3){
 	background: #171930;
 	color: #FAF9F9;
 	border-radius: 25px;
+	border: 15px;
 }
 #achievements {
 	padding: 10px;
@@ -56,6 +58,7 @@ header nav ul li:nth-child(3){
 	background: #171930;
 	color: #FAF9F9;
 	border-radius: 25px;
+	border: 15px;
 }
 #skills {
 	padding: 10px;
@@ -65,6 +68,7 @@ header nav ul li:nth-child(3){
 	background: #6D8097;
 	color: #1B1924;
 	border-radius: 25px;
+	border: 15px;
 }
 #experience{
 	padding: 10px;
@@ -72,6 +76,7 @@ header nav ul li:nth-child(3){
 	background: #715D5E;
 	color: FAF9F9;
 	border-radius: 25px;
+	border: 15px;
 }
 #projects{
 	padding: 10px;
@@ -79,6 +84,7 @@ header nav ul li:nth-child(3){
 	background: #6D8097;
 	color: #1B1924;
 	border-radius: 25px;
+	border: 15px;
 }
 .dualContainer {
     display: grid;
