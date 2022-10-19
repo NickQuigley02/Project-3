@@ -33,8 +33,9 @@ header nav ul li:nth-child(3){
 }
 
 #intro {
+	margin: 10px;
 	padding: 10px;
-	size: 80%;
+	width: 80%;
 	font-family: "Verdana", sans-serif;
 	font-size: 100%;
 	background: #6D8097;
@@ -43,8 +44,9 @@ header nav ul li:nth-child(3){
 	height: 90%;
 }
 #education {
+	margin: 10px;
 	padding: 10px;
-	size: 80%;
+	width: 80%;
 	font-family: "Raleway", sans-serif;
 	font-size: 70%;
 	background: #171930;
@@ -53,8 +55,9 @@ header nav ul li:nth-child(3){
 	height: 90%;
 }
 #achievements {
+	margin: 10px;
 	padding: 10px;
-	size: 80%;
+	width: 80%;
 	font-family: "Verdana", sans-serif;
 	font-size: 110%;
 	text-align: left;
@@ -64,8 +67,9 @@ header nav ul li:nth-child(3){
 	height: 90%;
 }
 #skills {
+	margin: 10px;
 	padding: 10px;
-	size: 80%;
+	width: 80%;
 	font-family: "Raleway", sans-serif;
 	font-size: 65%;
 	text-align: left;
@@ -86,8 +90,9 @@ header nav ul li:nth-child(3){
 	border-radius: 25px;
 }
 #experience{
+	margin: 10px;
 	padding: 10px;
-	size: 80%;
+	width: 80%;
 	font-family: "Raleway", sans-serif;
 	background: #715D5E;
 	color: FAF9F9;
@@ -95,8 +100,9 @@ header nav ul li:nth-child(3){
 	height: 90%;
 }
 #projects{
+	margin: 10px;
 	padding: 10px;
-	size: 80%;
+	width: 80%;
 	font-family: "Raleway", sans-serif;
 	background: #6D8097;
 	color: #1B1924;
@@ -125,6 +131,6 @@ header nav ul li:nth-child(3){
   width:60%;
 }
 .imgContainer{
-	height: 150 px;
-	width: 150 px;
+	height: 400px;
+	width: 400px;
 }
