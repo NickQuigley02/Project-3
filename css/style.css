@@ -5,7 +5,7 @@ body {
 
 header {
 	background: #171930;
-	color: #FAF9F9;
+	color: #faf9f9;
 }
 
 header::after {
@@ -18,8 +18,6 @@ a {
   background-color: #6D8097;
   color: #1B1924;
   padding: 1em 1.5em;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
 a:hover {
@@ -32,4 +30,8 @@ a:active {
 
 a:visited {
   background-color: #252F30;
+}
+
+ol, ul{
+  list-style: none;
 }
