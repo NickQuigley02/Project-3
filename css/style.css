@@ -28,6 +28,7 @@ ol, ul{
 }
 #education {
 	font-family: "Raleway", sans-serif;
+	font-size: -1;
 	background: #171930;
 	color: #FAF9F9;
 	border-radius: 25px;
@@ -53,8 +54,8 @@ ol, ul{
 }
 .dualContainer {
     display: grid;
-    grid-template-columns: 45% 45%; 
-    grid-column-gap: 10%;
+    grid-template-columns: 47% 47%; 
+    grid-column-gap: 3%;
 }
 
 .dualItem {
