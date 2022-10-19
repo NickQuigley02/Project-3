@@ -77,12 +77,21 @@ header nav ul li:nth-child(3){
 #skillsNewman {
 	padding: 10px;
 	height: 300px;
-	width: 100px;
+	width: 250px;
 	font-family: "Raleway", sans-serif;
 	font-size: 65%;
 	text-align: left;
 	background: #6D8097;
 	color: #1B1924;
+	border-radius: 25px;
+}
+#experienceNewman{
+	padding: 10px;
+	height: 300px;
+	width: 500px;
+	font-family: "Raleway", sans-serif;
+	background: #715D5E;
+	color: FAF9F9;
 	border-radius: 25px;
 }
 #experience{
