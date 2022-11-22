@@ -58,11 +58,11 @@ body {
     text-align: center;
 }
 body ul{
-  font-size: 90%;
   padding: 5%;
 }
 body ul li {
   list-style-type: none;
+  font-size: 14px;
 }
 
 #intro {
@@ -102,6 +102,9 @@ body ul li {
   color: #FAF9F9;
   border-radius: 25px;
   height: 90%;
+}
+#education h3{
+  font-size: 130%;
 }
 #achievements {
   margin: 5%;
@@ -198,4 +201,73 @@ img{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 480px) {
+	#intro {
+	  float: none;
+	  position: relative;
+	  margin: 5%;
+	  padding: 5%;
+	  font-family: "Verdana", sans-serif;
+	  font-size: 100%;
+	  background: #6D8097;
+	  color: #1B1924;
+	  border-radius: 10px;
+	}
+	#education {
+	  float: none;
+	  margin: 1%;
+	  padding: 1%;
+	  font-family: "Raleway", sans-serif;
+	  font-size: 90%;
+	  background: #171930;
+	  color: #FAF9F9;
+	  border-radius: 10px;
+	  width: fit-content;
+	}
+	#skills{
+	  float: none;
+	  margin: 5%;
+	  padding: 5%;
+	  width: fit-content;
+	  font-size: 100%;
+	  text-align: left;
+	  background: #6D8097;
+	  color: #1B1924;
+	  border-radius: 25px;
+	}
+	#experience{
+	  margin: 10%;
+	  padding: 5%;
+	  font-family: "Raleway", sans-serif;
+	  background: #715D5E;
+	  color: #FAF9F9;
+	  border-radius: 25px;
+	  font-size: 30px;
+	}
+	.imgContainer{
+	  width: 100%;
+	  margin: 1%;
+	}
+	.dualContainer {
+	  display: inline-block;
+	  width: max-width;
+	  grid-column-gap: 3%;
+	  height: 100px;
+	  margin: 1%;
+	}
+	.dualItem {
+	  width: 100%;
+	  padding: 12px 20px;
+	  margin: 1% 0;
+	  display: inline-block;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	}
+	.videoContainer iframe, .yt-container object, .yt-container embed {
+	  position: static;
+	  width: 100%;
+	  padding: 1%;
+	}
 }
