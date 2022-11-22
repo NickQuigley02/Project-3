@@ -77,6 +77,21 @@ body ul li {
   border-radius: 25px;
   height: 90%;
 }
+#introMap {
+  position: relative;
+  margin: 5%;
+  padding: 5%;
+  width: 80%;
+  font-family: "Verdana", sans-serif;
+  font-size: 20px;
+  background: #6D8097;
+  color: #1B1924;
+  border-radius: 25px;
+  height: 90%;
+}
+#introMap h2{
+	font-size: 150%;
+}
 #education {
   margin: 10px;
   padding: 10px;
@@ -180,5 +195,7 @@ img{
 }
 #map {
   height: 400px;
-  width: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
