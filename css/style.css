@@ -36,15 +36,19 @@ header nav a:hover{
   color: #171930;
 }
 header nav ul li:nth-child(1){
-  width: 33.33%;
+  width: 25%;
   float: left;
 }
 header nav ul li:nth-child(2){
-  width: 33.33%;
+  width: 25%;
   float: right;
 }
 header nav ul li:nth-child(3){
-  width: 33.33%;
+  width: 25%;
+  float: right;
+}
+header nav ul li:nth-child(4){
+  width: 25%;
   float: right;
 }
 
@@ -173,4 +177,8 @@ img{
 .imgContainer{
   width: 100%;
   margin: 20px;
+}
+#map {
+  height: 400px;
+  width: 100%;
 }
