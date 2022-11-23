@@ -244,56 +244,6 @@ img{
 	  padding: 12px 20px;
 	  margin: 1% 0;
 	  display: inline-block;
-	  border-radius: 4px;
-	  box-sizing: border-box;
-	}
-	.videoContainer iframe, .yt-container object, .yt-container embed {
-	  position: static;
-	  width: 100%;
-	  padding: 1%;
-	}
-}
-@media only screen and (max-width: 480px) {
-	#intro {
-	  float: none;
-	  margin: 5%;
-	  padding: 5%;
-	  font-size: 100%;
-	  border-radius: 10px;
-	}
-	#education {
-	  float: none;
-	  margin: 1%;
-	  padding: 1%;
-	  border-radius: 10px;
-	  width: fit-content;
-	}
-	#skills{
-	  float: none;
-	  width: fit-content;
-	  font-size: 100%;
-	  border-radius: 5px;
-	}
-	#experience{
-	  margin: 10%;
-	  border-radius: 5px;
-	  font-size: 15px;
-	}
-	.imgContainer{
-	  width: 100%;
-	  margin: 1%;
-	}
-	.dualContainer {
-	  display: inline-block;
-	  grid-column-gap: 3%;
-	  height: 100px;
-	  margin: 1%;
-	}
-	.dualItem {
-	  width: 100%;
-	  padding: 12px 20px;
-	  margin: 1% 0;
-	  display: inline-block;
 	  border-radius: 2px;
 	}
 	.videoContainer iframe, .yt-container object, .yt-container embed {
